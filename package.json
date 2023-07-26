@@ -4,9 +4,9 @@
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
+  "main": "index.js",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Garlend1/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-46/actions)",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
