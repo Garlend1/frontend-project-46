@@ -8,8 +8,10 @@ Difference Calculator is a program that determines the difference between two da
 
 ## Installation:
 
-1. Clone this repository on your PC
-2. Open terminal, go to project directory and write `sudo npm install`, then `sudo npm link`.  
+1. Clone this repository on your PC - `git clone`
+2. Install dependencies - sudo npm install
+3. I
+4. Open terminal, go to project directory and write `sudo npm install`, then `sudo npm link`.  
 *P.S. Make sure that you have already installed Node.js*
 
 Comparison of flat files (JSON):
