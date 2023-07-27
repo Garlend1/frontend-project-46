@@ -1,12 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 import process from 'process';
-import buildTree from './buildTree.js';
+import makeTree from './buildTree.js';
 
 const genDiff = (filepath1, filepath2) => {
   const makeObject1 = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), filepath1), 'utf-8'));
   const makeObject2 = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), filepath2), 'utf-8'));
-  const tree = buildTree(makeObject1, makeObject2);
+  const tree = makeTree(makeObject1, makeObject2);
   return tree;
 };
 
