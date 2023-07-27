@@ -12,7 +12,7 @@ Difference Calculator is a program that determines the difference between two da
 2. Install dependencies - `make install`
 3. Install the package - `make link`
 
-# help
+## help information for the utility
 gendiff -h
 
 Comparison of flat files (JSON):
