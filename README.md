@@ -1,7 +1,8 @@
 # Difference Calculator
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Garlend1/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-46/actions)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/e46e3b8da61205aef37f/maintainability)](https://codeclimate.com/github/Garlend1/frontend-project-46/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e46e3b8da61205aef37f/test_coverage)](https://codeclimate.com/github/Garlend1/frontend-project-46/test_coverage)
 ## Description
 
 Difference Calculator is a program that determines the difference between two data structures.
