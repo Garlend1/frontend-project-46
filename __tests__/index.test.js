@@ -12,3 +12,6 @@ const expected = fs.readFileSync(getFixturePath('expected_file_stylish.txt'), 'u
 test('gendiff', () => {
   expect(genDiff('./__fixtures__/file1.json', './__fixtures__/file2.json')).toBe(expected);
 });
+test('gendiff YAML', () => {
+  expect(genDiff('./__fixtures__/file1.yaml', './__fixtures__/file2.yaml')).toBe(expected);
+});
