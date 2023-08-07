@@ -20,3 +20,5 @@ gendiff -h
 
 ### Comparison of flat files (JSON):
 [![asciicast](https://asciinema.org/a/fpKAOdwirBloJVyDegelAcbkm.svg)](https://asciinema.org/a/fpKAOdwirBloJVyDegelAcbkm)
+### Comparison of flat files (YAML):
+[![asciicast](https://asciinema.org/a/5Vc5wcUVqqidfHuZMm4aSmaNL.svg)](https://asciinema.org/a/5Vc5wcUVqqidfHuZMm4aSmaNL)
