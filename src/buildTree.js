@@ -5,10 +5,10 @@ const makeTree = (data1, data2) => {
   const difference = {};
   keys.forEach((key) => {
     if (data1[key] !== data2[key]) {
-      difference[`- ${key}`] = data1[key];
-      difference[`+ ${key}`] = data2[key];
+      difference[` - ${key}`] = data1[key];
+      difference[` + ${key}`] = data2[key];
     } else {
-      difference[`  ${key}`] = data1[key];
+      difference[`   ${key}`] = data1[key];
     }
   });
 

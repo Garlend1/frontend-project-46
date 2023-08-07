@@ -1,5 +1,5 @@
 name: Node CI
-on: 
+on:
   - push
   - pull_request
 
@@ -8,13 +8,12 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
+
     strategy:
       # Node versions list
       matrix:
-        node-version: [20.x]
+        node-version: [18.x]
 
     steps:
       - uses: actions/checkout@v3
