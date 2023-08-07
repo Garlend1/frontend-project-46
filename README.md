@@ -1,7 +1,7 @@
 # Difference Calculator
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Garlend1/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-46/actions)
-[![Node CI](https://github.com/Garlend1/frontend-project-46/workflows/nodeCI.yml/badge.svg)](https://github.com/Garlend1/frontend-project-46/workflows/nodeCI.yml)
+[![Node CI](https://github.com/Garlend1/frontend-project-46/actions/workflows/nodeCI.yml/badge.svg)](https://github.com/Garlend1/frontend-project-46/actions/workflows/nodeCI.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e46e3b8da61205aef37f/maintainability)](https://codeclimate.com/github/Garlend1/frontend-project-46/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e46e3b8da61205aef37f/test_coverage)](https://codeclimate.com/github/Garlend1/frontend-project-46/test_coverage)
 ## Description
