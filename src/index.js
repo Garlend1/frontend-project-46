@@ -3,6 +3,7 @@ import path from 'path';
 import process from 'process';
 import makeTree from './buildTree.js';
 import parsers from './parsers.js';
+import stringify from './formaters/stylish.js';
 
 const genDiff = (filepath1, filepath2) => {
   const getFormat1 = path.extname(filepath1);
@@ -18,7 +19,8 @@ const genDiff = (filepath1, filepath2) => {
   const object2 = parsers(readFile2, getFormat2);
 
   const tree = makeTree(object1, object2);
-  return tree;
+  const result = stringify(tree);
+  return result;
 };
 
 export default genDiff;
