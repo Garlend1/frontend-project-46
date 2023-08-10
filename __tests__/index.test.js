@@ -7,11 +7,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', filename);
-const expected = fs.readFileSync(getFixturePath('expected_file_stylish.txt'), 'utf8');
+const expectedStylish = fs.readFileSync(getFixturePath('expectedStylish.txt'), 'utf8');
+const filePathJson1 = getFixturePath('file1.json');
+const filePathJson2 = getFixturePath('file2.json');
+const filePathYaml1 = getFixturePath('file1.yaml');
+const filePathYaml2 = getFixturePath('file2.yaml');
 
 test('gendiff', () => {
-  expect(genDiff('./__fixtures__/file1.json', './__fixtures__/file2.json')).toBe(expected);
+  expect(genDiff(filePathJson1, filePathJson2)).toBe(expectedStylish);
 });
 test('gendiff YAML', () => {
-  expect(genDiff('./__fixtures__/file1.yaml', './__fixtures__/file2.yaml')).toBe(expected);
+  expect(genDiff(filePathYaml1, filePathYaml2)).toBe(expectedStylish);
 });
