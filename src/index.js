@@ -24,4 +24,5 @@ const genDiff = (filepath1, filepath2) => {
 };
 
 export default genDiff;
-// genDiff('file1.yaml', 'file2.yaml');
+
+console.log(genDiff('__fixtures__/file1.json', '__fixtures__/file2.json'));
