@@ -3,13 +3,11 @@ import _ from 'lodash';
 const getIndent = (depth, spaceCount = 4) => {
   const replacer = ' ';
   // console.log(replacer)
-  return replacer.repeat(depth * spaceCount).slice(0, -2);
+  return replacer.repeat(depth * spaceCount - 2);
 };
 
-const stringify = (data, depth = 1) => {
-  if (!_.isObject(data)) {
-    return `${data}`;
-  }
+const stringify = (data, depth) => {
+  if (!_.isObject(data)) return `${data}`;
 
   const lines = Object.entries(data).map(
     ([key, value]) => `${getIndent(depth)}  ${key}: ${stringify(value, depth + 1)}`,
