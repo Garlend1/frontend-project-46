@@ -17,8 +17,11 @@ Difference Calculator is a program that determines the difference between two da
 ## help information for the utility
 gendiff -h
 
+## Demonstration
 
 ### Comparison of flat files (JSON):
 [![asciicast](https://asciinema.org/a/fpKAOdwirBloJVyDegelAcbkm.svg)](https://asciinema.org/a/fpKAOdwirBloJVyDegelAcbkm)
 ### Comparison of flat files (YAML):
 [![asciicast](https://asciinema.org/a/5Vc5wcUVqqidfHuZMm4aSmaNL.svg)](https://asciinema.org/a/5Vc5wcUVqqidfHuZMm4aSmaNL)
+### Comparison of files with nested structure (JSON & YAML)
+[![asciicast](https://asciinema.org/a/EKh81dmdR7brOKud0DQlC4fNY.svg)](https://asciinema.org/a/EKh81dmdR7brOKud0DQlC4fNY)
