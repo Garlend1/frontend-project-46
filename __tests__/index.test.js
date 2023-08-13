@@ -22,5 +22,6 @@ test('gendiff YAML', () => {
 });
 
 test('gendiff plain', () => {
-  expect(genDiff(filePathJson1, filePathJson2, 'plain')).toEqual(expectedPlain);
+  expect(genDiff(filePathYaml1, filePathJson2, 'plain')).toEqual(expectedPlain);
+  expect(genDiff(filePathJson1, filePathYaml2, 'plain')).toEqual(expectedPlain);
 });

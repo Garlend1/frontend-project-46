@@ -25,3 +25,5 @@ gendiff -h
 [![asciicast](https://asciinema.org/a/5Vc5wcUVqqidfHuZMm4aSmaNL.svg)](https://asciinema.org/a/5Vc5wcUVqqidfHuZMm4aSmaNL)
 ### Comparison of files with nested structure (JSON & YAML)
 [![asciicast](https://asciinema.org/a/EKh81dmdR7brOKud0DQlC4fNY.svg)](https://asciinema.org/a/EKh81dmdR7brOKud0DQlC4fNY)
+### Comparison of files with nested structure in plain format
+[![asciicast](https://asciinema.org/a/haUBT1TfHX2mkevJO9kuQhOG8.svg)](https://asciinema.org/a/haUBT1TfHX2mkevJO9kuQhOG8)
