@@ -24,5 +24,3 @@ const genDiff = (filepath1, filepath2, format = 'stylish') => {
 };
 
 export default genDiff;
-
-// console.log(JSON.stringify(genDiff('__fixtures__/file1.json', '__fixtures__/file2.json', 'plain')));
