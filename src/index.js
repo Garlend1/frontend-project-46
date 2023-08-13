@@ -3,9 +3,9 @@ import path from 'path';
 import process from 'process';
 import makeTree from './buildTree.js';
 import parsers from './parsers.js';
-import makeStylish from './formaters/stylish.js';
+import chooseFormat from './formaters/index.js';
 
-const genDiff = (filepath1, filepath2) => {
+const genDiff = (filepath1, filepath2, format = 'stylish') => {
   const getFormat1 = path.extname(filepath1);
   const getFormat2 = path.extname(filepath2);
 
@@ -19,10 +19,10 @@ const genDiff = (filepath1, filepath2) => {
   const object2 = parsers(readFile2, getFormat2);
 
   const tree = makeTree(object1, object2);
-  const result = makeStylish(tree);
+  const result = chooseFormat(tree, format);
   return result;
 };
 
 export default genDiff;
 
-// console.log(genDiff('__fixtures__/file1.json', '__fixtures__/file2.json'));
+// console.log(genDiff('__fixtures__/file1.json', '__fixtures__/file2.json', 'stylish'));
