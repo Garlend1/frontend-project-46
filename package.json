@@ -6,7 +6,7 @@
   },
   "main": "src/index.js",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Garlend1/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Garlend1/frontend-project-46/actions)",
+  "description": "Difference Calculator. Compares two files and shows the difference",
   "scripts": {
     "test": "jest"
   },
