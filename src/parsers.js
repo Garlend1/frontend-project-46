@@ -8,7 +8,7 @@ const parsers = (data, format) => {
     case '.yml':
       return yaml.load(data);
     default:
-      throw new Error('Incorrect format');
+      throw new Error(`Incorrect format ${format}`);
   }
 };
 
