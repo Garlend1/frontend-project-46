@@ -30,4 +30,3 @@ gendiff -h
 ### Comparison of files with nested structuire in JSON 
 [![asciicast](https://asciinema.org/a/iign7QyxOwrThOKEQQrQBENnF.svg)](https://asciinema.org/a/iign7QyxOwrThOKEQQrQBENnF)
 
-Проверка корректности изменений
